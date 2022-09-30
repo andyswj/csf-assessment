@@ -21,7 +21,6 @@ export class OrdersComponent implements OnInit {
         result.toString
       )
     .catch((error : HttpErrorResponse) => {
-      alert(`Error: message=${error.message}, data=${error.error}`) 
     })
   }
 
